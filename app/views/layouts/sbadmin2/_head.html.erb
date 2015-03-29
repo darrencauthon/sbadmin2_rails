@@ -30,6 +30,11 @@
     <!-- Custom CSS -->
     <link href="/assets/sb-admin-2.css" rel="stylesheet">
 
+<% if @include_morris %>
+    <!-- Morris Charts CSS -->
+    <link href="/assets/morrisjs/morris.css" rel="stylesheet">
+  <% end %>
+
 <% if @include_flot %>
     <!-- Morris Charts CSS -->
     <link href="/assets/morrisjs/morris.css" rel="stylesheet">

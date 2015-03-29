@@ -7,6 +7,12 @@
     <!-- Metis Menu Plugin JavaScript -->
     <script src="/assets/metisMenu/dist/metisMenu.min.js"></script>
 
+<% if @include_morris %>
+    <!-- Morris Charts JavaScript -->
+    <script src="/assets/raphael/raphael-min.js"></script>
+    <script src="/assets/morrisjs/morris.min.js"></script>
+<% end %>
+
 <% if @include_flot %>
     <!-- Flot Charts JavaScript -->
     <script src="/assets/flot/excanvas.min.js"></script>
