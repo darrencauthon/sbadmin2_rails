@@ -22,8 +22,18 @@
     <link href="/assets/bootstrap-social/bootstrap-social.css" rel="stylesheet">
 <% end %>
 
+<% if @include_flot %>
+    <!-- Timeline CSS -->
+    <link href="/assets/timeline.css" rel="stylesheet">
+<% end %>
+
     <!-- Custom CSS -->
     <link href="/assets/sb-admin-2.css" rel="stylesheet">
+
+<% if @include_flot %>
+    <!-- Morris Charts CSS -->
+    <link href="/assets/morrisjs/morris.css" rel="stylesheet">
+<% end %>
 
     <!-- Custom Fonts -->
     <link href="/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -34,6 +44,9 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- jQuery -->
+    <script src="/assets/jquery/dist/jquery.min.js"></script>
 
 </head>
 
