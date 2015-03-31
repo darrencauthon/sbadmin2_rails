@@ -32,6 +32,11 @@
     <!-- Custom Theme JavaScript -->
     <script src="/assets/sb-admin-2.js"></script>
 
+    <% partials ||= [] %>
+    <% partials.each do |partial| %>
+      <%= render partial: partial %>
+    <% end %>
+
 </body>
 
 </html>
