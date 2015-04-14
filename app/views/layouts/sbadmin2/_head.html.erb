@@ -61,7 +61,7 @@
     <!-- jQuery -->
     <script src="/assets/jquery/dist/jquery.min.js"></script>
 
-    <% partials ||= [] %>
+    <% partials ||= (@head_partials || []) %>
     <% partials.each do |partial| %>
       <%= render partial: partial %>
     <% end %>
