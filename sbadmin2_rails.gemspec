@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = Sbadmin2Rails::VERSION
   s.authors     = ["Darren Cauthon"]
   s.email       = ["darren@cauthon.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Sbadmin2Rails."
-  s.description = "TODO: Description of Sbadmin2Rails."
+  s.homepage    = "http://github.com/darrencauthon/sbadmin2_rails"
+  s.summary     = "sbadmin_rails2"
+  s.description = "sbadmin_rails2"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
